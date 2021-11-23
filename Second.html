@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Second Page</title>
+</head>
+
+<body>
+    <h2>1)Learning Forms...</h2>
+    <div class="form">
+        <form action="form.php">
+            <fieldset>
+                <legend>My Personal details:</legend>
+                <span><label for="form">Name:-</label></span>
+                <input type="text" name="myName" placeholder="Type your name here..." required><br><br>
+
+                <span><label for="form">Email:-</label></span>
+                <input type="email" name="myEmail" placeholder="Type your email here..." required><br><br>
+
+                <span><label for="form">Password:-</label></span>
+                <input type="password" name="myPassword" placeholder="Enter your password here..." required>
+                <input type="button" value="see password"><br><br>
+
+                <span><label for="form">Age:-</label></span>
+                <input type="number" name="myAge" placeholder="Type your age..." required><br><br>
+
+                <span><label for="form">Date Of Birth:-</label></span>
+                <input type="date" name="myDate" required><br><br>
+
+                <span><label for="form">Gender:-</label></span>
+                <input type="radio" name="myGender">Male
+                <input type="radio" name="myGender">Female
+                <input type="radio" name="myGender">Other<br><br>
+
+
+                <span><label for="form">Choose Your Skills:-</label></span>
+                <input type="checkbox" name="mySkills">HTML
+                <input type="checkbox" name="mySkills">CSS
+                <input type="checkbox" name="mySkills">Java Script
+                <input type="checkbox" name="mySkills">Java
+                <input type="checkbox" name="mySkills">Node Js
+                <input type="checkbox" name="mySkills">Python<br><br>
+
+                <label for="form">Select The City Where You Want To Do The Job:-</label>
+                <select name="city name" id="form">
+                    <option value="cityname" selected>-- Please Choose an Option--</option>
+                    <option value="cityname">Banalore</option>
+                    <option value="cityname">Hydrabad</option>
+                    <option value="cityname">Mumbai</option>
+                    <option value="cityname">Chennai</option>
+                    <option value="cityname">Pune</option>
+                </select><br><br>
+
+                <span><label for="form">Upload Your Resume:-</label></span>
+                <input type="file" name="myName"><br>
+
+                Comments:- <br>
+                <textarea name="form" id="form" placeholder="Write Something..."></textarea><br>
+
+                <span><label for="form"></label></span>
+                <input type="submit" name="mySubmit">
+
+                <span><label for="form"></label></span>
+                <input type="reset" value="Reset" name="myReset">
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
